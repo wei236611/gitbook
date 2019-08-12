@@ -1,0 +1,52 @@
+{
+    "title": "koujizhang's riches",
+    "author": "koujizhang",
+    "description": "Do one thing at a time, and do well.",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "我的空间": "https://koujizhang.cn"
+        }
+    },
+    "plugins": [
+        "github",
+        "back-to-top-button",
+        "expandable-chapters-small",
+        "livereload",
+        "highlight",
+        "code",
+        "sharing",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "expandable-chapters",
+        "-copy-code-button",
+        "todo",
+        "search-pro",
+        "advanced-emoji",
+        "emphasize",
+        "splitter",
+        "klipse",
+        "-change_girls",
+        "pageview-count",
+        "auto-scroll-table"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/wei236611/wei236611.github.com"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "change_girls": {
+            "time": 10,
+            "urls": []
+        }
+    }
+}
