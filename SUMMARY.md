@@ -1,7 +1,7 @@
 # Summary
 * [JavaScript总结](JavaScript.md)
-    * [Introduction-1](README-1.md)
-    * [Introduction-2](README-2.md)
+    * [数组去重汇总](js-1.md)
+    * [慎用slice()、concat()和assign()方法来拷贝数组](js-2.md)
 ---
 * [CSS总结](CSS.md)
 
