@@ -54,4 +54,4 @@ console.log(arrUnique(arr));
 
 ```
 
-### 三、
+### 三、ES6
