@@ -1,4 +1,5 @@
-/_book
 /output
 /node_modules
 /*.vscode
+/_book
+
