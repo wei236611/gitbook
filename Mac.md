@@ -18,3 +18,10 @@ exit      //root用户切换至普通用户
 
 （2）使用`sudo chown macUsername .config`命令即可添加用户读写权限，上图中的`.config`文件已获得权限
 
+
+3、git中，在`.gitignore`中设置了忽略提交文件，发现忽略的文件修改后，还是会提交到GitHub中去
+
+**原因：**如果某些文件在`.gitignore`设置忽略之前就纳入了版本管理中去，这种情况下，设置`.gitignore`不会起作用，需要删除本地`git`中的缓存即可
+```bash
+git rm -r --cached .
+```
