@@ -54,4 +54,24 @@ console.log(arrUnique(arr));
 
 ```
 
-### 三、ES6
+### 三、使用`ES6`的数据类型`Set`去重
+**思路：**
+
+（1）利用`ES6`中`Set`数据结构类似于数组，但是其成员都是唯一的，没有重复的值；
+
+（2）用`Set`处理原数组后，在使用`...`扩展运算符或者`Array.form()`来拷贝类数组/可迭代对象，返回一个浅拷贝的数组实例。
+
+```javascript
+
+function arrUnique(arr){
+    return [...new Set(arr)];
+    //或者 return Array.from(new Set(arr));
+}
+
+let arr = [1 , 2 , 3 , 2 , 4 , 5 , 1 , 3];
+console.log(arrUnique(arr));
+//[1, 2, 3, 4, 5]
+
+```
+
+### 四、方法待续中......
