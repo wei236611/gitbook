@@ -17,7 +17,7 @@
  **1、问题一解决方法：**
  
  （1）video标签设置如下图所示
-![](https://user-gold-cdn.xitu.io/2019/1/9/16831cb92294a100?w=1145&h=129&f=png&s=35321)
+![](images/web/web-1/1.png)
 （2）进入H5首页，安卓可以预加载视频，不用处理，IOS可以根据监听“WeixinJSBridgeReady”事件，提前播放视频，然后立即关闭视频的声音，还需要监听video组件的“canplaythrough”事件，然后在“canplaythrough”事件的回调方法里显示播放视频按钮。
 
 ![](https://user-gold-cdn.xitu.io/2019/1/9/16831d3ae1fe1322?w=585&h=131&f=png&s=14983)
